@@ -1,0 +1,152 @@
+\begin{thebibliography}{10}
+
+\bibitem{10.5555/1283383.1283494}
+David Arthur and Sergei Vassilvitskii.
+\newblock K-means++: The advantages of careful seeding.
+\newblock In {\em Proceedings of the Eighteenth Annual ACM-SIAM Symposium on
+  Discrete Algorithms}, SODA '07, page 1027–1035, USA, 2007. Society for
+  Industrial and Applied Mathematics.
+
+\bibitem{9016106}
+Tamir Bendory, Alberto Bartesaghi, and Amit Singer.
+\newblock Single-particle cryo-electron microscopy: Mathematical theory,
+  computational challenges, and opportunities.
+\newblock {\em IEEE Signal Processing Magazine}, 37(2):58--76, 2020.
+
+\bibitem{Bendory_2018}
+Tamir Bendory, Nicolas Boumal, Chao Ma, Zhizhen Zhao, and Amit Singer.
+\newblock Bispectrum inversion with application to multireference alignment.
+\newblock {\em IEEE Transactions on Signal Processing}, 66(4):1037–1050, Feb
+  2018.
+
+\bibitem{Blondel_2008}
+Vincent~D Blondel, Jean-Loup Guillaume, Renaud Lambiotte, and Etienne Lefebvre.
+\newblock Fast unfolding of communities in large networks.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
+  2008(10):P10008, Oct 2008.
+
+\bibitem{boumal2018heterogeneous}
+Nicolas Boumal, Tamir Bendory, Roy~R. Lederman, and Amit Singer.
+\newblock Heterogeneous multireference alignment: a single pass approach, 2018.
+
+\bibitem{chowdhury2015structural}
+Saikat Chowdhury, Stephanie~A Ketcham, Trina~A Schroer, and Gabriel~C Lander.
+\newblock Structural organization of the dynein--dynactin complex bound to
+  microtubules.
+\newblock {\em Nature structural \& molecular biology}, 22(4):345--347, 2015.
+
+\bibitem{OHSU-overleaf-dissertation-template}
+B.~A. Cordier.
+\newblock Ohsu latex dissertation template, 2021.
+\newblock Available on Overleaf.
+
+\bibitem{Danon_2005}
+Leon Danon, Albert Díaz-Guilera, Jordi Duch, and Alex Arenas.
+\newblock Comparing community structure identification.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
+  2005(09):P09008–P09008, Sep 2005.
+
+\bibitem{Drineas_1999}
+Petros Drineas, Alan Frieze, Ravindran Kannan, Santosh Vempala, and V.~Vinay.
+\newblock Clustering in large graphs and matrices.
+\newblock {\em Proceedings of the Annual ACM-SIAM Symposium on Discrete
+  Algorithms}, pages 291--299, 10 2000.
+
+\bibitem{Fortunato_2010}
+Santo Fortunato.
+\newblock Community detection in graphs.
+\newblock {\em Physics Reports}, 486(3-5):75–174, Feb 2010.
+
+\bibitem{girvannewman2002}
+Michelle Girvan and Mark Newman.
+\newblock Girvan, m. and newman, m. e. j. community structure in social and
+  biological networks. proc. natl acad. sci. usa 99, 7821-7826.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 99:7821--6, 07 2002.
+
+\bibitem{guimera2005}
+Roger Guimerà and Luís Amaral.
+\newblock Functional cartography of complex metabolic networks.
+\newblock {\em Nature}, 23:22--231, 01 2005.
+
+\bibitem{10.5555/46712}
+Anil~K. Jain and Richard~C. Dubes.
+\newblock {\em Algorithms for Clustering Data}.
+\newblock Prentice-Hall, Inc., USA, 1988.
+
+\bibitem{10.5555/800044.801546}
+Scott Kirkpatrick, C.~Gelatt, and M.~Vecchi.
+\newblock Optimization by simulated annealing.
+\newblock {\em Science (New York, N.Y.)}, 220:671--80, 06 1983.
+
+\bibitem{Newman_2004}
+M.~E.~J. Newman.
+\newblock Fast algorithm for detecting community structure in networks.
+\newblock {\em Physical Review E}, 69(6), Jun 2004.
+
+\bibitem{Newman_2006}
+M.~E.~J. Newman.
+\newblock Finding community structure in networks using the eigenvectors of
+  matrices.
+\newblock {\em Physical Review E}, 74(3), Sep 2006.
+
+\bibitem{Pons_2006}
+Pascal Pons and Matthieu Latapy.
+\newblock Computing communities in large networks using random walks.
+\newblock {\em J. Graph Algorithms Appl.}, 10:191--218, 01 2006.
+
+\bibitem{Raghavan_2007}
+Usha~Nandini Raghavan, Réka Albert, and Soundar Kumara.
+\newblock Near linear time algorithm to detect community structures in
+  large-scale networks.
+\newblock {\em Physical Review E}, 76(3), Sep 2007.
+
+\bibitem{Reichardt_2006}
+Jörg Reichardt and Stefan Bornholdt.
+\newblock Statistical mechanics of community detection.
+\newblock {\em Physical Review E}, 74(1), Jul 2006.
+
+\bibitem{Rosvall_2009}
+M.~Rosvall, D.~Axelsson, and C.~T. Bergstrom.
+\newblock The map equation.
+\newblock {\em The European Physical Journal Special Topics}, 178(1):13–23,
+  Nov 2009.
+
+\bibitem{scheres2014beam}
+Sjors~HW Scheres.
+\newblock Beam-induced motion correction for sub-megadalton cryo-em particles.
+\newblock {\em elife}, 3:e03665, 2014.
+
+\bibitem{scheres2005fast}
+Sjors~HW Scheres, Mikel Valle, and Jos{\'e}-Mar{\'\i}a Carazo.
+\newblock Fast maximum-likelihood refinement of electron microscopy images.
+\newblock {\em Bioinformatics}, 21(suppl\_2):ii243--ii244, 2005.
+
+\bibitem{sigworth1998maximum}
+Fred~J Sigworth.
+\newblock A maximum-likelihood approach to single-particle image refinement.
+\newblock {\em Journal of structural biology}, 122(3):328--339, 1998.
+
+\bibitem{song2013flexibility}
+Chun~Feng Song, Kostas Papachristos, Shaun Rawson, Markus Huss, Helmut
+  Wieczorek, Emanuele Paci, John Trinick, Michael~A Harrison, and Stephen~P
+  Muench.
+\newblock Flexibility within the rotor and stators of the vacuolar h+-atpase.
+\newblock {\em PLoS One}, 8(12):e82207, 2013.
+
+\bibitem{Traag_2019}
+V.~A. Traag, L.~Waltman, and N.~J. van Eck.
+\newblock From louvain to leiden: guaranteeing well-connected communities.
+\newblock {\em Scientific Reports}, 9(1), Mar 2019.
+
+\bibitem{RevModPhys.54.235}
+F.~Y. Wu.
+\newblock The potts model.
+\newblock {\em Rev. Mod. Phys.}, 54:235--268, Jan 1982.
+
+\bibitem{zachary1976}
+Wayne Zachary.
+\newblock An information flow model for conflict and fission in small groups1.
+\newblock {\em Journal of anthropological research}, 33, 11 1976.
+
+\end{thebibliography}

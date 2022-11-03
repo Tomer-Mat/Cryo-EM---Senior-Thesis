@@ -1,0 +1,79 @@
+%%
+%% Document Setup
+%% 
+
+% Declare Document Class
+\documentclass{article}
+
+% Import OHSU dissertation style
+\usepackage{styling/ohsu-dissertation}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{subcaption}
+
+% For formatting reasons, we input the list of abbreviations
+% (i.e. glossary) section outside of the document
+\makeglossaries
+\input{sections/glossary}
+
+% Define Text Variables
+% This is where you write in the details
+% of your project, institution, etc.
+\newcommand{\projecttitle}{Community Detection with applications\\
+to Multireference alignment}
+\newcommand{\projectnum}{20.1.1.2135}
+\newcommand{\projectauthorone}{Alexey Kiryushkin 324439876}
+\newcommand{\projectauthortwo}{Tomer Matityahu 312116668}
+\newcommand{\projectmentorone}{Mr. Noam Janco Tel-Aviv University}
+\newcommand{\projectmentortwo}{Dr. Tamir Bendory Tel-Aviv University}
+
+\let\vec\mathbf
+\captionsetup[table]{skip=10pt}
+
+%%
+%% Document Structure
+%%
+
+\begin{document}
+
+    \include{sections/preamble}
+    \pagenumbering{arabic}
+    \clearpage
+    
+    \tableofcontents
+    \clearpage
+    
+    \include{sections/abstract}
+    \clearpage
+    
+    \listoffigures
+    
+    \listoftables
+    
+    % Generate List of Abbreviations
+    \setglossarystyle{listgroup}
+    \printglossary[type=\acronymtype,title={List of Abbreviations},toctitle=List of Abbreviations] 
+    \clearpage
+    
+    \include{sections/introduction}
+    \clearpage
+    
+    \input{sections/background}
+    
+	\input{sections/results}    
+    \clearpage
+    
+    \input{sections/discussion}
+    
+    \input{sections/conclusion}
+    \clearpage
+    
+    \bibliographystyle{plain}
+    \bibliography{references}
+    \clearpage
+    
+    \include{sections/appendix}
+    \clearpage
+
+\end{document}
+

@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: sections/preamble.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: sections/abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: sections/introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: sections/appendix.aux
+Database file #1: references.bib
+You've used 27 entries,
+            2118 wiz_defined-function locations,
+            705 strings with 8848 characters,
+and the built_in function-call counts, 9013 in all, are:
+= -- 873
+> -- 438
+< -- 2
++ -- 177
+- -- 146
+* -- 687
+:= -- 1525
+add.period$ -- 81
+call.type$ -- 27
+change.case$ -- 153
+chr.to.int$ -- 0
+cite$ -- 27
+duplicate$ -- 319
+empty$ -- 679
+format.name$ -- 146
+if$ -- 1854
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 26
+newline$ -- 137
+num.names$ -- 54
+pop$ -- 124
+preamble$ -- 1
+purify$ -- 127
+quote$ -- 0
+skip$ -- 244
+stack$ -- 0
+substring$ -- 568
+swap$ -- 59
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 106
+warning$ -- 0
+while$ -- 77
+width$ -- 29
+write$ -- 298
