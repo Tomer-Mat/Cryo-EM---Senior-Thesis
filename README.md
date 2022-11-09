@@ -1,9 +1,16 @@
-# Cryo-EM---Senior-Thesis
-My senior thesis in Electrical Engineering (Detecting similar 1-D Cryo-EM samples at different levels of SNR), graded 96.
-In this project we tackled the problem of detecting similar (1-D) Cryogenic Electron Microscopy (Cryo-EM) samples at different levels of SNR (Signal-to-Noise Ratio).
-The Cryo-EM samples are typically modeled by different 1-D signals, which are circularly shifted by an unknown factor, and then are added (independent) Gaussian white noise.
-A common approach to solve this problem is to use variants of the famous K-means algorithm, which yields fast and satisfying results. In our project a different approach is proposed: first,
-we build a weighted, complete graph, in which each sample is represented by a vertex and each edge is weighted according to a similarity function (chosen to be the cross-correlation function, which
+# Community Detection with MRA applications - Senior Thesis
+## Description in High-Level ##
+My senior thesis in Electrical Engineering (Detecting similar 1-D Cryo-EM samples at different levels of SNR), graded 96. The project was done in pairs, under the guidance of Dr. Tamir Bendori, from Tel Aviv University. <br>
+In this project we tackled the problem of detecting similar (1-D) Cryogenic Electron Microscopy (Cryo-EM) samples, which were represented as (1-D) noisy signals under the Multi Reference Alignment (MRA) model, at different levels of SNR (Signal-to-Noise Ratio). <br> A common solution for this problem is to use the variants of the well-known K-Means algorithm, which yield excellent results and can be computed efficiently. <br> In this project we examined a different method to approach this problem based on Community Detection (CD) algorithms, which are commonly used in Network Analysis and Graph Theory. <br> We showed that under certain conditions our approach yields similar results to the traditional approach, and even better results on other conditions. 
+
+## The MRA Model ##
+The Cryo-EM samples are typically modeled by different 1-D signals, which are circularly shifted by an unknown factor, and then are added (independent) Gaussian white noise. Formally, given a set of $k$ 1-D signals $x_1, x_2, ..., x_k \subseteq \mathbb{R}^L$ with known length $L$, we compute for each $x_i$: $$y_i=R_s(x_i)+ Z $$  where $R_s(\cdot)$ is a circular (Random) shift and $Z \sim N(0,\sigma^2)$ <br>
+When we say that the problem is heterogenic we mean that the $k$ signals are different from eachother, and that each signal is (circularly) shifted differently. <br>
+Using the above terminology, we can restate the problem as follows: Given a set of (1-D) $m$ signals (samples) $y_1, y_2,...,y_m\subseteq \mathbb{R}^L$ created by the transformation above, can we determine which samples are of the same signal? 
+
+## Examined Approach ##
+Given the $m$ samples $y_1, y_2,...,y_m\subseteq \mathbb{R}^L$, we applied the following method: Firstly, we built a weighted, complete graph, in which each sample is represented by a vertex and each edge is weighted according to a similarity function (chosen to be the cross-correlation function, which
 can be computed fast by FFT). After the graph is built, the similar samples can be found by running a community detection (CD) algorithm.
-In our senior thesis, we compared the performance of the traditional approach with the performance of various CD algorithms (Edge Betweennes, Fast Greedy, Label Propogation, Louvian, etc) based on the Normalized Mutual Information (NMI) metric and the computational complexity. We showed that under certein conditions, our proposed approach yields better results than the traditional approach.
-The project is written in Python; The well-known libaries Numpy, Scipy, Igraph and Cdlib are also used.
+
+## More ##
+The project is done in pairs, and was written in Python. Our code uses the libaries Numpy, Scipy, Igraph and Cdlib. <br> The project was graded highly, as it produced good results and shown a great skill of self learning and teamwork.
