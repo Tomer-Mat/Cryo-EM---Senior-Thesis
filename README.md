@@ -1,5 +1,5 @@
 # Community Detection with MRA applications - Senior Thesis
-## Description in High-Level ##
+## High-Level Description ##
 My senior thesis in Electrical Engineering (Detecting similar 1-D Cryo-EM samples at different levels of SNR), graded 96. The project was done in pairs, under the guidance of Dr. Tamir Bendori, from Tel Aviv University. <br>
 In this project we tackled the problem of detecting similar (1-D) Cryogenic Electron Microscopy (Cryo-EM) samples, which were represented as (1-D) noisy signals under the Multi Reference Alignment (MRA) model, at different levels of SNR (Signal-to-Noise Ratio). <br> A common solution for this problem is to use the variants of the well-known K-Means algorithm, which yield excellent results and can be computed efficiently. <br> In this project we examined a different method to approach this problem based on Community Detection (CD) algorithms, which are commonly used in Network Analysis and Graph Theory. <br> We showed that under certain conditions our approach yields similar results to the traditional approach, and even better results on other conditions. 
 
